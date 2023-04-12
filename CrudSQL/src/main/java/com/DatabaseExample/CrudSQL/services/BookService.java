@@ -18,4 +18,8 @@ public class BookService {
     public List<Book> getAllBooks(){
         return repository.getAllBooks();
     }
+
+    public long createBook(Book newBook) {
+        return repository.createBook(newBook);
+    }
 }
